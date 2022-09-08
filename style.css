@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    font-family: sans-serif, Arial;
+    transition: all 0.3s ease;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 15px 0px;
+}
+p{
+    margin: 10px 0px;
+    line-height: 150%;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.clear{
+    overflow: hidden;
+}
+/* typography finished */
+.full-wraper{
+    width: 100%;
+}
+.wraper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-bg {
+    background-color: #646463;
+
+}
+.header-section{
+    background-color: #646463;
+    padding: 18px 0px;
+}
+.header-section> .header-left{
+    width: 600px;
+    
+}
+.header-left img{
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin-right: 12px;
+}
+.header-left h2{
+color: antiquewhite;
+font-size: 25px ;
+}
+.header-right{
+    width: 600px;
+
+}
